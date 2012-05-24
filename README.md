@@ -14,6 +14,7 @@ This is a lightweight jQuery lightbox with inline css (to keep the dependencies 
 - adds ?lightboxmode=1 to the iframe src in case you need it in your server handling; for example for stripping the header and footer from a page that can be accessed both through and outside the lightbox.
 - aligns itself to the center of the screen on browser window resize.
 - the title of the lightbox changes according to the <title> tag of the iframe's content page.
+- the lightbox can be controlled from within the iframe page; for example like this: window.parent.DSPLb.close();
  
 Requirements:
 -------------
